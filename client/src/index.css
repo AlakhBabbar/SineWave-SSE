@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+
+/* X & Y axis label text */
+.uplot text {
+  fill: #ffffff !important;   /* your desired color */
+}
+
+/* Legend text color */
+.u-legend .u-label {
+  color: white !important;
+}
+
+/* Legend values */
+.u-legend .u-value {
+  color: white !important;
+}
+
+/* Legend background if needed */
+.u-legend {
+  background: transparent !important;
+}
