@@ -23,4 +23,4 @@ app.get('/stream', (req, res)=>{
 
 // app.listen(3000, () => console.log("SSE server running on http://localhost:3000"));
 
-export default app()
+export default app;
