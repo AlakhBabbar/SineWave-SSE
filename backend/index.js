@@ -21,4 +21,6 @@ app.get('/stream', (req, res)=>{
     req.on("close", ()=> clearInterval(interval))
 })
 
-app.listen(3000, () => console.log("SSE server running on http://localhost:3000"));
+// app.listen(3000, () => console.log("SSE server running on http://localhost:3000"));
+
+export default app()
