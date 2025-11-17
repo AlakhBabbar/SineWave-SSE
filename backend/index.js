@@ -14,7 +14,7 @@ app.get('/stream', (req, res)=>{
 
     const interval = setInterval(()=>{
         const value = Math.sin(t)
-        t += 0.1
+        t += 0.05
         res.write(`data: ${JSON.stringify({ value, ts: Date.now() })}\n\n`);
     }, 5)
 
