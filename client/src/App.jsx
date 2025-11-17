@@ -69,7 +69,7 @@ export default function App() {
     // ---------------------
     // SSE LIVE STREAM
     // ---------------------
-    const es = new EventSource("http://localhost:3000/stream" || "https://sine-wave-backend.vercel.app/stream");
+    const es = new EventSource("https://sine-wave-backend.vercel.app/stream" || "http://localhost:3000/stream" );
 
     es.onmessage = (e) => {
       const { value } = JSON.parse(e.data);
